@@ -1,0 +1,1 @@
+cmd_/home/julio/projects/linux-studies/lkm_example.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/julio/projects/linux-studies/lkm_example.ko /home/julio/projects/linux-studies/lkm_example.o /home/julio/projects/linux-studies/lkm_example.mod.o;  true
